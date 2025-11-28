@@ -23,7 +23,7 @@ export const VideoSection = () => {
               poster="https://images.pexels.com/photos/18069696/pexels-photo-18069696.png"
             >
               <source
-                src="https://customer-assets.emergentagent.com/job_8f5e3da1-7989-4512-9440-a88f0475f105/artifacts/8vx3a4j4_Prod_snap_v2_subs.mp4"
+                src="https://customer-assets.emergentagent.com/job_vibecoding-blog/artifacts/q0zuxsb4_Prod_snap_v2-VEED%20%281%29.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
