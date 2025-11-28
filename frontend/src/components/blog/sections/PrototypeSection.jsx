@@ -33,7 +33,7 @@ export const PrototypeSection = () => {
   return (
     <section id="prototype" className="mb-16">
       <h2 className="font-spectral font-bold text-3xl sm:text-4xl text-foreground mb-6">
-        Our Prototype: Steps with Screenshots
+        Our Prototype: Step-by-Step Guide
       </h2>
 
       <p className="text-lg text-foreground leading-relaxed mb-8">
