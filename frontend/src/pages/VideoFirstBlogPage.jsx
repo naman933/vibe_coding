@@ -1,8 +1,12 @@
 import React from 'react';
 import VideoFirstHero from '@/components/videofirst/VideoFirstHero';
 import VideoSection from '@/components/videofirst/VideoSection';
-import ContextSection from '@/components/videofirst/ContextSection';
-import StrategySection from '@/components/videofirst/StrategySection';
+import IntroductionSection from '@/components/videofirst/IntroductionSection';
+import ExpandedContextSection from '@/components/videofirst/ExpandedContextSection';
+import ToolsSection from '@/components/videofirst/ToolsSection';
+import UpdatedStrategySection from '@/components/videofirst/UpdatedStrategySection';
+import PrototypeStepsSection from '@/components/videofirst/PrototypeStepsSection';
+import InterviewBenefitsSection from '@/components/videofirst/InterviewBenefitsSection';
 import SimpleFooter from '@/components/videofirst/SimpleFooter';
 
 export const VideoFirstBlogPage = () => {
@@ -14,11 +18,23 @@ export const VideoFirstBlogPage = () => {
       {/* Video Container - The Star */}
       <VideoSection />
       
-      {/* Context Section - What is Vibe Coding */}
-      <ContextSection />
+      {/* Introduction */}
+      <IntroductionSection />
       
-      {/* Strategy Section - Best Practices */}
-      <StrategySection />
+      {/* Context Section - What is & Why PMs Care */}
+      <ExpandedContextSection />
+      
+      {/* Tools to Try */}
+      <ToolsSection />
+      
+      {/* Best Practices */}
+      <UpdatedStrategySection />
+      
+      {/* Prototype Steps */}
+      <PrototypeStepsSection />
+      
+      {/* Why It Helps in Interviews */}
+      <InterviewBenefitsSection />
       
       {/* Footer */}
       <SimpleFooter />
